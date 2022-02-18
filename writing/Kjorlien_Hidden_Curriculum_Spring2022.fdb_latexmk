@@ -1,13 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1645215862 "c:/Users/skjor/Documents/UT Austin/3. Spring/Causal Inference/causal-inference-2022/writing/Kjorlien_Hidden_Curriculum_Spring2022.tex.tex" "Kjorlien_Hidden_Curriculum_Spring2022.tex.pdf" "Kjorlien_Hidden_Curriculum_Spring2022.tex" 1645215869
+["pdflatex"] 1645216629 "c:/Users/skjor/Documents/UT Austin/3. Spring/Causal Inference/causal-inference-2022/writing/Kjorlien_Hidden_Curriculum_Spring2022.tex" "Kjorlien_Hidden_Curriculum_Spring2022.pdf" "Kjorlien_Hidden_Curriculum_Spring2022" 1645216633
   "../figures//incarceration_by_racegender.png" 1645214049 43460 cf7b021e190d85c18e2c0ffdc2a0f4a8 ""
   "../tables/incarceration_by_racegender.tex" 1645214713 477 fae280872bc649e348116cf5386961ab ""
   "../tables/n_incarceration_by_racegender.tex" 1645214716 405 e54af1913c46e7f308fc28df5d9cfea5 ""
   "../tables/regress_incarceration_by_racegender.tex" 1645215207 1156 0d7c238a45eb823a3aa1e10e9547fecd ""
-  "Kjorlien_Hidden_Curriculum_Spring2022.tex.aux" 1645215868 1943 bc0a785e644bbae4a7f48d6816e76374 "pdflatex"
-  "Kjorlien_Hidden_Curriculum_Spring2022.tex.out" 1645215868 272 9ac3244fad41b763ff177376869cb368 "pdflatex"
-  "Kjorlien_Hidden_Curriculum_Spring2022.tex.tex" 1645215850 3256 9a7591b360706a614e910d15b45cdd62 ""
-  "c:/Users/skjor/Documents/UT Austin/3. Spring/Causal Inference/causal-inference-2022/writing/Kjorlien_Hidden_Curriculum_Spring2022.tex.tex" 1645215850 3256 9a7591b360706a614e910d15b45cdd62 ""
+  "Kjorlien_Hidden_Curriculum_Spring2022.aux" 1645216633 1943 bc0a785e644bbae4a7f48d6816e76374 "pdflatex"
+  "Kjorlien_Hidden_Curriculum_Spring2022.out" 1645216633 272 9ac3244fad41b763ff177376869cb368 "pdflatex"
+  "Kjorlien_Hidden_Curriculum_Spring2022.tex" 1645216607 3256 9a7591b360706a614e910d15b45cdd62 ""
+  "c:/Users/skjor/Documents/UT Austin/3. Spring/Causal Inference/causal-inference-2022/writing/Kjorlien_Hidden_Curriculum_Spring2022.tex" 1645216607 3256 9a7591b360706a614e910d15b45cdd62 ""
   "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1643078290 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1643076475 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1643076475 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -109,7 +109,7 @@
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1643082572 2796743 be143fc98d3591cf5df069001201d44d ""
   "c:/texlive/2021/texmf.cnf" 1643082281 713 e69b156964470283e0530f5060668171 ""
   (generated)
-  "Kjorlien_Hidden_Curriculum_Spring2022.tex.aux"
-  "Kjorlien_Hidden_Curriculum_Spring2022.tex.log"
-  "Kjorlien_Hidden_Curriculum_Spring2022.tex.out"
-  "Kjorlien_Hidden_Curriculum_Spring2022.tex.pdf"
+  "Kjorlien_Hidden_Curriculum_Spring2022.aux"
+  "Kjorlien_Hidden_Curriculum_Spring2022.log"
+  "Kjorlien_Hidden_Curriculum_Spring2022.out"
+  "Kjorlien_Hidden_Curriculum_Spring2022.pdf"

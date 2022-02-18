@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.24)  18 FEB 2022 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.24)  18 FEB 2022 14:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/skjor/Documents/UT Austin/3. Spring/Causal Inference/causal-inference-2022/writing/Kjorlien_Hidden_Curriculum_Spring2022.tex.tex"
-(c:/Users/skjor/Documents/UT Austin/3. Spring/Causal Inference/causal-inference-2022/writing/Kjorlien_Hidden_Curriculum_Spring2022.tex.tex
+**"c:/Users/skjor/Documents/UT Austin/3. Spring/Causal Inference/causal-inference-2022/writing/Kjorlien_Hidden_Curriculum_Spring2022.tex"
+(c:/Users/skjor/Documents/UT Austin/3. Spring/Causal Inference/causal-inference-2022/writing/Kjorlien_Hidden_Curriculum_Spring2022.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -304,8 +304,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 31.
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box56
-) (./Kjorlien_Hidden_Curriculum_Spring2022.tex.aux)
-\openout1 = `Kjorlien_Hidden_Curriculum_Spring2022.tex.aux'.
+) (./Kjorlien_Hidden_Curriculum_Spring2022.aux)
+\openout1 = `Kjorlien_Hidden_Curriculum_Spring2022.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
@@ -391,9 +391,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 38.
 LaTeX Info: Redefining \pageref on input line 38.
 LaTeX Info: Redefining \nameref on input line 38.
- (./Kjorlien_Hidden_Curriculum_Spring2022.tex.out) (./Kjorlien_Hidden_Curriculum_Spring2022.tex.out)
+ (./Kjorlien_Hidden_Curriculum_Spring2022.out) (./Kjorlien_Hidden_Curriculum_Spring2022.out)
 \@outlinefile=\write3
-\openout3 = `Kjorlien_Hidden_Curriculum_Spring2022.tex.out'.
+\openout3 = `Kjorlien_Hidden_Curriculum_Spring2022.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -410,20 +410,20 @@ Package pdftex.def Info: ../figures//incarceration_by_racegender.png  used on in
 (pdftex.def)             Requested size: 365.50655pt x 205.59615pt.
  [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../figures//incarceration_by_racegender.png>] (../tables/incarceration_by_racegender.tex) (../tables/n_incarceration_by_racegender.tex) [2] (../tables/regress_incarceration_by_racegender.tex) [3] (./Kjorlien_Hidden_Curriculum_Spring2022.tex.aux)
-Package rerunfilecheck Info: File `Kjorlien_Hidden_Curriculum_Spring2022.tex.out' has not changed.
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../figures//incarceration_by_racegender.png>] (../tables/incarceration_by_racegender.tex) (../tables/n_incarceration_by_racegender.tex) [2] (../tables/regress_incarceration_by_racegender.tex) [3] (./Kjorlien_Hidden_Curriculum_Spring2022.aux)
+Package rerunfilecheck Info: File `Kjorlien_Hidden_Curriculum_Spring2022.out' has not changed.
 (rerunfilecheck)             Checksum: 9AC3244FAD41B763FF177376869CB368;272.
  ) 
 Here is how much of TeX's memory you used:
  11077 strings out of 478287
- 170893 string characters out of 5850749
- 472007 words of memory out of 5000000
+ 170825 string characters out of 5850749
+ 471987 words of memory out of 5000000
  29090 multiletter control sequences out of 15000+600000
  476853 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,628b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,624b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Kjorlien_Hidden_Curriculum_Spring2022.tex.pdf (3 pages, 171661 bytes).
+Output written on Kjorlien_Hidden_Curriculum_Spring2022.pdf (3 pages, 171661 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
