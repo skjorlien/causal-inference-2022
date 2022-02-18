@@ -1,0 +1,69 @@
+\documentclass{article}
+
+% these packages let you do math
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% we need these packages for fancy R tables
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% these packages play with the spacing/margins of the document. Uncomment the commands on lines 16 and 17 to see what they do.
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{parskip}
+%\doublespacing
+%\geometry{margin=1.5in}
+
+% this package helps us with including images. Setting the graphics path makes it easier to refer to things in the \includegraphics command.
+\usepackage{graphicx}
+\graphicspath{ {../figures/} }
+
+% make some hyperlinks using the \href command
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue
+}
+
+% set the author, title, and date of the document. \maketitle adds it to the document.
+\author{Scott Kjorlien}
+\title{Causal Inference Hidden Curriculum Assignment}
+\date{Sping 2022}
+
+\begin{document}
+\maketitle
+
+\section{Summary Statistics}
+
+For this NLSY97 dataset of incarcerated youths, I chose to analyze the average number of months incarcerated by Race and Gender, given some level of incarceration (that is, sum of all monthly indicators is greater than 0).
+
+Figure \ref{fig:graph} shows a simple bar plot of the mean number of months incarcerated in 2002. We can see that that black men have the highest number of months incarcerated on average, while black women have the lowest. The gender difference between black men and black women appears striking, but 
+By reducing the dataset to only incarcerated individuals, and subgrouping by both race and gender, I'm greatly reducing the number of individuals of each subgroup. Therefore, large variation between groups could easily be a matter of small sample size, rather than a representation of a group's sentencing.
+
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=.85\textwidth]{incarceration_by_racegender.png}
+    \end{center}
+    \caption{Mean Number of Months Incarcerated in 2002 by Race and Gender}
+    \label{fig:graph}
+\end{figure}
+
+Table \ref{tab:summarystats} shows the numbers associated with each bar in Figure \ref{fig:graph}. As we see in Table \ref{tab:summarystats_n}, once we select only individuals who were incarcerated, we have limited data on the Mixed Race Non Hispanic group, and generally less data points for females.
+
+\input{../tables/incarceration_by_racegender.tex}
+
+\input{../tables/n_incarceration_by_racegender.tex}
+
+\newpage
+
+\section{Regression Summary}
+The results from our regression below show that incarcerated black males serve on average 2.61 months more time than incarcerated black females. Further, incarcerated non-black/Non-Hispanic females serve on average 2.8 months fewer than black females.
+In order to analyze this further across different groups, I would want to test different linear combinations of these groups. Surprisingly, even with the limited sample size, we can have quite a few statistically significant coefficients which we can use for inference.
+\input{../tables/regress_incarceration_by_racegender.tex}
+
+\end{document}
