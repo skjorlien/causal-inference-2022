@@ -8,7 +8,6 @@ model <-
 # Here we supply our own standard errors b/c we want to 
 # use heteroskedasticity-robust errors.
 se <- model %>% vcovHAC %>% diag %>% sqrt
-model %>% vcov
 # this is unnecessary, but tidies the coefficient names,
 # so that you have "Male" instead of "genderMale" in the table.
 # Note that stargazer treats the intercept differently so we drop it (the [-1] part)
